@@ -1,0 +1,258 @@
+@media only screen and (max-width: 600px) {
+  .btn-hidden {
+    display: none;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .logo-icon {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #1b2836;
+}
+
+h2 {
+  font-size: 54px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fixed-top-social-icons {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1029;
+  background-color: #1b2836 !important;
+  width: 100%;
+}
+
+.logo-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.social-icons {
+  text-align: center;
+  width: 100%;
+  color: #1da1f2;
+}
+
+.social-icon {
+  font-size: 40px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.text-section {
+  padding-bottom: 30px;
+}
+
+.navbar {
+  background-color: white;
+  border: 0 solid #e5e5e5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+
+body {
+  font-family: "Roboto Slab", Sans-Serif;
+  font-weight: 100;
+  color: #1b2836;
+  font-size: 18px;
+}
+
+a {
+  color: #4aa1ec;
+  text-decoration: none;
+  font-family: "Source Sans Pro", Sans-Serif;
+}
+
+a:hover {
+  color: #4aa1ec;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  text-align: center;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.jumbotron {
+  padding: 50px;
+  background-color: #1c2a37;
+  opacity: 0.9;
+  color: white !important;
+  text-align: center;
+  height: 1000px;
+  clip-path: polygon(0 0, 1800px 0, 1800px 90%, 0 100%);
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+#jumbo-title {
+  color: white;
+  opacity: 1;
+  font-size: 70px;
+}
+
+#jumbo-text {
+  font-size: 22px;
+}
+
+.background-section {
+  background-image: url("https://images.unsplash.com/photo-1515248137880-45e105b710e0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf6e1e427425d582f7622b3ec9428d6c&auto=format&fit=crop&w=2271&q=80");
+  clip-path: polygon(0 0, 1800px 0, 1800px 90%, 0 100%);
+  /* Set a specific height */
+  height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.alternate {
+  background-color: #f9fafb;
+  clip-path: polygon(0 0, 1800px 0, 1800px 90%, 0 100%);
+}
+
+.testimonial-section {
+  background-image: linear-gradient(
+    to right bottom,
+    #0066ff,
+    #3970ff,
+    #5279ff,
+    #6583ff,
+    #768dff
+  );
+}
+
+footer {
+  padding: 100px;
+  background-color: #1b2836;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.blurb {
+  padding: 30px;
+}
+.card:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon {
+  font-size: 100px;
+  color: #2b9fec;
+  opacity: 0.8;
+}
+
+.pph-image {
+  width: 40%;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.contact-section {
+  background-color: #f9fafb;
+  clip-path: polygon(0 0, 1800px 0, 1800px 90%, 0 100%);
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+.card-img-top {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.other-stuff-section {
+  padding-top: 40px;
+}
+
+.web-image {
+  width: 60%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.card-text {
+  color: #96a4a8;
+  font-size: 17px;
+}
+
+.other-stuff-text {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: transparent;
+  -moz-border-radius: 42px;
+  -webkit-border-radius: 42px;
+  border-radius: 42px;
+  border: 5px solid #1da1f2;
+  display: inline-block;
+  cursor: pointer;
+  color: #1da1f2;
+  padding: 11px 42px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.btn-primary:hover {
+  background-color: #1da1f2;
+  color: white;
+  border: 5px solid #1da1f2;
+}
