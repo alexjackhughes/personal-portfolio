@@ -69,28 +69,36 @@ export default () => (
           <p>
             To give you a quick history lesson: I've been building startups for
             the last five (and a bit) years, and in between managed to get an
-            MSc in Computer Science.
+            MSc in Computer Science and write a few things for{" "}
+            <a
+              href="https://hackernoon.com/the-secret-sauce-of-coding-34e0e2348e1d"
+              target="_blank"
+            >
+              Hackernoon
+            </a>.
           </p>
           <p>But enough about me, how have you been?</p>
         </div>
+
         <div className="container">
           <div className="row">
-            <div className="col-sm">
-              <div className="card blurb" style={{ width: "18rem" }}>
+            <div className="col-lg-4">
+              <div className="card blurb">
                 <i className="fas fa-chart-line card-img-top icon" />
                 <div className="card-body">
                   <h5 className="card-title">Top 1%</h5>
                   <p className="card-text">
-                    Rose to the top 1% of freelancers on{" "}
+                    Rose to the top 1% of all freelancers worldwide, not just in
+                    web design, on{" "}
                     <a href="http://pph.me/alexjackhughes" target="_blank">
                       PeoplePerHour.com
-                    </a>
+                    </a>{" "}
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm">
-              <div className="card blurb" style={{ width: "18rem" }}>
+            <div className="col-lg-4">
+              <div className="card blurb">
                 <i className="far fa-heart card-img-top icon" />
                 <div className="card-body">
                   <h5 className="card-title">Scale Matters</h5>
@@ -107,8 +115,8 @@ export default () => (
                 </div>
               </div>
             </div>
-            <div className="col-sm">
-              <div className="card blurb" style={{ width: "18rem" }}>
+            <div className="col-lg-4">
+              <div className="card blurb">
                 <i className="fas fa-laptop card-img-top icon" />
                 <div className="card-body">
                   <h5 className="card-title">React + Node</h5>
@@ -126,7 +134,7 @@ export default () => (
         </div>
       </section>
       <section className="alternate">
-        <div>
+        <div className="text-section">
           <h2>What am I doing now?</h2>
           <p>
             Right now I'm building Huckletree; A Workspace Accelerator focused
@@ -154,8 +162,8 @@ export default () => (
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-sm">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-lg-4">
+              <div className="card">
                 <img
                   className="card-img-top"
                   src="https://prismic-io.s3.amazonaws.com/alexjackhughes%2F173f9303-74ee-41b9-8137-fe0a25d13281_bedroombands-portfolio.png"
@@ -176,8 +184,8 @@ export default () => (
                 </div>
               </div>
             </div>
-            <div className="col-sm">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-lg-4">
+              <div className="card">
                 <img
                   className="card-img-top"
                   src="https://prismic-io.s3.amazonaws.com/alexjackhughes%2F5676b677-d5d1-41cb-b34f-2211f962eabc_huckletree-portfolio.png"
@@ -199,8 +207,8 @@ export default () => (
                 </div>
               </div>
             </div>
-            <div className="col-sm">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-lg-4">
+              <div className="card">
                 <img
                   className="card-img-top"
                   src="https://prismic-io.s3.amazonaws.com/alexjackhughes%2Fde8941b7-6b25-410a-b27a-e13403e1f99b_blockcc-portfolio.png"
@@ -246,7 +254,7 @@ export default () => (
         </div>
       </section>
       <section className="flip contact-section" id="contact">
-        <div className="flip">
+        <div className="flip text-section">
           <h2>Contact me</h2>
           <p>
             The internet is a beautiful place to share things - Especially
